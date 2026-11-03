@@ -1,0 +1,39 @@
+# Secrets and local overrides: never commit these.
+.env
+.env.*
+!.env.example
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+
+# Spark / Delta Lake local state
+spark-warehouse/
+metastore_db/
+derby.log
+
+# dbt build output
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+logs/
+
+# Local data files stay on your machine; commit small samples with `git add -f`.
+data/*
+!data/.gitkeep
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Command line project: the files you work on are generated (python -m fernhill_files generate), and what
+# your scripts produce is rebuilt from them.
+incoming/
+app-logs/
+warehouse/
+warehouse.tmp.*
+archive/
+logs/

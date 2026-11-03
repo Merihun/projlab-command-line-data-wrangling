@@ -1,0 +1,9 @@
+# Step "Explore the drop": fill in each value after the = sign, using the commands from the step.
+order_files=
+first_file=
+last_file=
+largest_file=
+header=
+lines_20260914=
+error_lines=
+crlf_file=
