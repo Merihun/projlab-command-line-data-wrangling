@@ -1,9 +1,9 @@
 # Step "Explore the drop": fill in each value after the = sign, using the commands from the step.
-order_files=
-first_file=
-last_file=
-largest_file=
-header=
-lines_20260914=
-error_lines=
-crlf_file=
+order_files=14
+first_file=orders_20260901.csv
+last_file=orders_20260914.csv
+largest_file=orders_20260909.csv
+header=order_id,order_ts,customer_id,sku,quantity,unit_price,status
+lines_20260914=187
+error_lines=5
+crlf_file=incoming/orders/orders_20260903.csv
